@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.navbar {
+    background: #001f90b8;
+    height: 39px;
+    width: 100%;
+}
+
+.container {
+    background: #2c3b5a0f;
+    border-bottom: 1px solid #c7c3c369;
+}
+
+.nav-head {
+    background-color: #ffdc0026;
+    color: #5d530eb8;
+    padding: 6px 10px;
+    text-align: center;
+    height: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.nav-head span {
+    font-size: 13px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    text-align: center;
+    margin-bottom: .5rem;
+    background: white;
+    border-bottom: 1px solid #c7c3c369;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #c7c3c369;
+}
+
+form button {
+    padding: 11px;
+
+}
+
+form button{
+    position: relative;
+    display: inline-block;
+    padding: 11px;
+    text-decoration: none;
+    color: white;
+    background: #1e4088b8;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 15px #f30909;
+    width: 97.5%;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
+
+.new-account {
+    text-align: center;
+}
+
+.new-acc-btn {
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #0036f999;
+    font-size: 13px;
+    line-height: 34px;
+    padding: 0 18px;
+    color: white;
+}
+
+.contact-us {
+    padding-bottom: 21px;
+    text-align: center;
+}
+
+.contact-us a {
+    color: #00184a78;
+    font-size: 11px;
+}
